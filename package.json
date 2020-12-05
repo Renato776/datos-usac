@@ -1,0 +1,20 @@
+{
+  "name": "datos-usac",
+  "version": "1.0.0",
+  "description": "A node script to upload datos-usac graphs to Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "node",
+    "datos",
+    "usac"
+  ],
+  "author": "Renato Flores",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1",
+    "redis": "^3.0.2"
+  }
+}
